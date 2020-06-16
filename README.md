@@ -1,13 +1,13 @@
 # Salmonella genomics project
 ## Authors
-Dr Mark Ziemann
+Dr Mark Ziemann and 
 Udari Ranasinge.
 ## Motivation
 What is the motivation?
 ## Contents
 #Sequence quality check
-* run_fastqc.sh
-for the Illumina sequencing files in fq.gz format, qc analysis is done ans html file was generated with MUliQC and FastQC results. 
+* run_fastqc.sh:
+inputs are the Illumina sequencing files in fq.gz format, qc analysis is done ans html file was generated with MUliQC and FastQC results. 
 * assembly_pipeline.sh
 Illumina sequencing reads were used as inputs in _R1.fq.gz format.De novo assembly has performed with ABySS pipeline resulting assembly for 40 isolates.
 * test_abyss-params.sh
